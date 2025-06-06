@@ -13,3 +13,6 @@ spring:
       chat:
         options:
           model: deepseek-ai/DeepSeek-V3
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/ai_chat_demo
